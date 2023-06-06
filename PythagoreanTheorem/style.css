@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+}
+
+.container{
+    justify-content: center;
+}
+
+.card {
+    width: 35rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header{
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-body{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;   
+    border: 0.25px solid rgba(0, 0, 0, 0.281);
+}
+
+.btn{
+    margin: 6px;
+    width: 70%;
+    background-color: rgb(169, 243, 180);
+    color:rgb(0, 0, 0);
+    border: none;
+}

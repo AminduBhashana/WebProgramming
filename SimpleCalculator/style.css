@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+}
+
+.container{
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 6px 12px 0 rgb(51, 62, 124);
+    transition: 0.3s;
+    width: 25rem;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 9, 48);
+    border: 1px solid aliceblue;
+    border-radius: 2%;
+}
+
+label{
+    color: aliceblue;
+    padding-bottom: 5px;
+    padding-left: -2px;
+}
+
+h1{
+    padding-bottom: 25px;
+    color: aliceblue;
+}
+
+button{
+    margin: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(2, 9, 48);
+    color:aliceblue ;
+    font-weight: 800;
+    border: 1px solid aliceblue;
+    box-shadow: 0 1px 3px 0 aliceblue;
+}
+
+input{
+    background-color: aliceblue;
+    color: rgb(2, 9, 48);
+}
+
+input::placeholder{
+    color: rgb(2, 9, 48);
+    opacity: 0.3;
+    font-size: 14px;
+}
+
+#firstnumber{
+    margin-bottom: 10px;
+}
+

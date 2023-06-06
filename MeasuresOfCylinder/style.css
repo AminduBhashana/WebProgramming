@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+}
+
+.container{
+    justify-content: center;
+}
+
+.card {
+    width: 25rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.card-header{
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.card-body{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;   
+    border: 0.25px solid black;
+}
+
+.btn{
+    margin: 6px;
+    width: 70%;
+    background-color: rgb(255, 213, 5);
+    color:rgb(0, 0, 0);
+    border: none;
+}

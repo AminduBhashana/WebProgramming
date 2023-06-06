@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+}
+
+.container{
+    justify-content: center;
+}
+
+.card {
+    width: 35rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header{
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-body{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    margin-top: 15px;   
+    border: 0.25px solid rgba(0, 0, 0, 0.31);
+}
+
+.btn{
+    margin: 6px;
+    width: 70%;
+    background-color: rgb(117, 183, 211);
+    color:rgb(0, 0, 0);
+    border: none;
+    box-shadow: 1px 2px 2px 1px rgb(117, 183, 211);
+}
